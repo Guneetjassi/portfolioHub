@@ -4,7 +4,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-black-100">
+<<<<<<< HEAD
       {/* Navigation Bar */}
+=======
+>>>>>>> origin/main
       <nav className="bg-gray-800 text-white w-full p-4 fixed top-0 left-0">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">
@@ -15,12 +18,18 @@ export default function Home() {
             <Link href="/about" className="hover:underline">About</Link>
             <Link href="/projects" className="hover:underline">Projects</Link>
             <Link href="/contact" className="hover:underline">Contact</Link>
+<<<<<<< HEAD
             <Link href="/resume" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Resume</Link>
+=======
+>>>>>>> origin/main
           </div>
         </div>
       </nav>
 
+<<<<<<< HEAD
       {/* Hero Section */}
+=======
+>>>>>>> origin/main
       <section className="flex flex-col items-center justify-center text-center py-20 mt-16">
         <Image
           src="/profile.jpg"
@@ -29,6 +38,7 @@ export default function Home() {
           height={150}
           className="rounded-full"
         />
+<<<<<<< HEAD
         <h1 className="text-4xl font-bold mt-4">Hi, I'm [Alex]</h1>
         <p className="text-xl mt-2">I'm a [Your Profession].</p>
         <Link href="/projects" className="bg-blue-500 text-white px-6 py-3 rounded mt-4 hover:bg-blue-600">View My Work</Link>
@@ -135,6 +145,11 @@ export default function Home() {
           <p>&copy; {new Date().getFullYear()} [Your Name]. All rights reserved.</p>
         </div>
       </footer>
+=======
+        <h1 className="text-4xl font-bold mt-4">Hi, I'm Alex</h1>
+        <p className="text-xl mt-2">I'm a full-stack developer.</p>
+      </section>
+>>>>>>> origin/main
     </main>
   );
 }
