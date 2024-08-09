@@ -1,9 +1,9 @@
-import Image from "next/image";
+// app/about/page.js
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-black-100">
+    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-gray-100">
       <nav className="bg-gray-800 text-white w-full p-4 fixed top-0 left-0">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">
@@ -19,15 +19,13 @@ export default function Home() {
       </nav>
 
       <section className="flex flex-col items-center justify-center text-center py-20 mt-16">
-        <Image
-          src="/profile.jpg"
-          alt="Profile Picture"
-          width={150}
-          height={150}
-          className="rounded-full"
-        />
-        <h1 className="text-4xl font-bold mt-4">Hi, I'm Alex</h1>
-        <p className="text-xl mt-2">I'm a full-stack developer.</p>
+        <h1 className="text-4xl font-bold">About Me</h1>
+        <p className="text-lg mt-4 max-w-3xl">
+          Here you can provide a detailed description about yourself, your background, what drives you, and your journey so far.
+        </p>
+        <Link href="/projects" className="bg-blue-500 text-white px-6 py-3 rounded mt-4 hover:bg-blue-600">
+          View My Work
+        </Link>
       </section>
     </main>
   );
