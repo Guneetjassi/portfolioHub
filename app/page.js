@@ -109,25 +109,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="bg-gray-200 py-20">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Contact</h2>
-          <form className="max-w-md mx-auto">
-            <input type="text" placeholder="Name" className="border p-3 rounded mb-4 w-full" />
-            <input type="email" placeholder="Email" className="border p-3 rounded mb-4 w-full" />
-            <textarea placeholder="Message" className="border p-3 rounded mb-4 w-full h-32"></textarea>
-            <button type="submit" className="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">Send Message</button>
-          </form>
-          <div className="mt-6">
-            <p className="text-lg">Connect with me:</p>
-            <div className="space-x-4 mt-2">
-              <a href="https://linkedin.com" className="text-blue-500 hover:underline">LinkedIn</a>
-              <a href="https://github.com" className="text-blue-500 hover:underline">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-4">
