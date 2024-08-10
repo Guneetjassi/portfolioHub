@@ -11,12 +11,12 @@ export default function Home() {
             <Link href="/">portfoliohub</Link>
           </div>
           <div className="space-x-4">
-  <Link href="/" className="hover:underline">Home</Link>
-  <Link href="/about" className="hover:underline">About</Link>
-  <Link href="/projects" className="hover:underline">Projects</Link>
-  <Link href="/contact" className="hover:underline">Contact</Link>
-</div>
-
+            <Link href="/" className="hover:underline">Home</Link>
+            <Link href="/about" className="hover:underline">About</Link>
+            <Link href="/projects" className="hover:underline">Projects</Link>
+            <Link href="/contact" className="hover:underline">Contact</Link>
+            <Link href="/resume" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Resume</Link>
+          </div>
         </div>
       </nav>
 
@@ -29,8 +29,8 @@ export default function Home() {
           height={150}
           className="rounded-full"
         />
-        <h1 className="text-4xl font-bold mt-4">Hi, I'm Alex</h1>
-        <p className="text-xl mt-2">I'm a full .</p>
+        <h1 className="text-4xl font-bold mt-4">Hi, I'm [Alex]</h1>
+        <p className="text-xl mt-2">I'm a [Your Profession].</p>
         <Link href="/projects" className="bg-blue-500 text-white px-6 py-3 rounded mt-4 hover:bg-blue-600">View My Work</Link>
       </section>
 
@@ -108,8 +108,6 @@ export default function Home() {
           <Link href="/about" className="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">Read More</Link>
         </div>
       </section>
-
-     
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-4">
