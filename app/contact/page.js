@@ -25,6 +25,7 @@ export default function Contact() {
           <h2 className="text-4xl font-bold text-gray-800 mb-8">Get in Touch</h2>
           <form className="space-y-6 max-w-lg mx-auto">
             <input
+<<<<<<< HEAD
              type="text" 
              placeholder="Your Name" 
              className="w-full p-4 border border-gray-300 rounded focus: ouline-none focus:border-blue-500" />
@@ -39,10 +40,37 @@ export default function Contact() {
             type="submit" 
             className="w-full bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition-all">Send Message</button>
           </form>  
+=======
+              type="text"
+              placeholder="Your Name"
+              className="w-full p-4 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="w-full p-4 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+            />
+            <textarea
+              placeholder="Your Message"
+              className="w-full p-4 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+            ></textarea>
+            <button
+              type="submit"
+              className="w-full bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition-all"
+            >
+              Send Message
+            </button>
+          </form>
+          <div className="mt-12 text-center">
+            <p className="text-lg text-gray-800">Connect with me on social sites:</p>
+            <div className="space-x-4 mt-4">
+              <a href="https://linkedin.com" className="text-blue-700 hover:text-blue-800 text-2xl">LinkedIn</a>
+              <a href="https://github.com" className="text-gray-800 hover:text-black text-2xl">GitHub</a>
+            </div>
+          </div>
+>>>>>>> d059eb6c8d5dcc6ecfdc062777f55f25ca0cd2fa
         </div>
       </section>
     </main>
   );
 }
-
-

@@ -1,0 +1,57 @@
+[
+    {
+      "id": "project1",
+      "title": "Project 1",
+      "description": "A brief description of Project 1.",
+      "image": "/project1.jpg"
+    },
+    {
+      "id": "project2",
+      "title": "Project 2",
+      "description": "A brief description of Project 2.",
+      "image": "/project2.jpg"
+    },
+    {
+      "id": "project3",
+      "title": "Project 3",
+      "description": "A brief description of Project 3.",
+      "image": "/project3.jpg"
+    },
+    {
+      "id": "project4",
+      "title": "Project 4",
+      "description": "A brief description of Project 4.",
+      "image": "/project4.jpg"
+    },
+    {
+      "id": "project5",
+      "title": "Project 5",
+      "description": "A brief description of Project 5.",
+      "image": "/project5.jpg"
+    },
+    {
+      "id": "project6",
+      "title": "Project 6",
+      "description": "A brief description of Project 6.",
+      "image": "/project6.jpg"
+    },
+    {
+        "id": "project7",
+        "title": "Project 7",
+        "description": "A brief description of Project 7.",
+        "image": "/project4.jpg"
+      },
+      {
+        "id": "project8",
+        "title": "Project 8",
+        "description": "A brief description of Project 8.",
+        "image": "/project5.jpg"
+      },
+      {
+        "id": "project9",
+        "title": "Project 9",
+        "description": "A brief description of Project 9.",
+        "image": "/project6.jpg"
+      }
+  ]
+  
