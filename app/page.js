@@ -22,7 +22,7 @@ export default function Home() {
 
       <section className="flex flex-col items-center justify-center text-center py-20 mt-16">
         <Image
-          src="/images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg"
+          src="/images/88363bdd-b903-4e0d-8b89-75ddd347b081.jpg"
           alt="Profile Picture"
           width={150}
           height={150}
