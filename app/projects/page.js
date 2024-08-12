@@ -8,6 +8,8 @@ import projects from "../projects/project.json";
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
+  console.log(projects);
+
   const handleLearnMore = (project) => {
     setSelectedProject(project);
   };
@@ -31,9 +33,9 @@ export default function Projects() {
       
       {/* Project Details */}
       {selectedProject && (
-        <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-white rounded-lg mt-16 w-10/12">
+        <main className="flex items-center justify-center flex-col min-h-scree p-6 bg-white rounded-lg mt-16 w-10/12">
           <section className="py-20">
-            <div className="container mx-auto text-center">
+            <div className="container mx-auto text-center text-black flex items-center justify-center flex-col">
               <h1 className="text-4xl font-bold mb-8 text-black">{selectedProject.title}</h1>
               <Image
                 src={selectedProject.image}
@@ -42,22 +44,23 @@ export default function Projects() {
                 height={400}
                 className="mb-4 rounded"
               />
-              <p className="mb-8">{selectedProject.description}</p>
+              <br/>
+              <p className="mb-8">{selectedProject.about}</p>
               <button onClick={() => setSelectedProject(null)} className="text-blue-500 hover:underline">Back to Projects</button>
             </div>
           </section>
         </main>
-      )}
+      )} 
 
       {/* Projects Section */}
       {!selectedProject && (
-        <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-white rounded-lg mt-16 w-10/12">
+        <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-white rounded-lg mt-16 w-10/12 ">
           <section className="py-20">
             <div className="container mx-auto text-center">
               <h1 className="text-4xl font-bold mb-8 text-black">My Projects</h1>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {projects.map((project) => (
-                  <div key={project.id} className="p-4 border rounded">
+                  <div key={project.id} className="p-4 border rounded text-black flex justify-center items-center flex-col">
                     <Image
                       src={project.image}
                       alt={project.title}
