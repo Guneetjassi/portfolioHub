@@ -2,8 +2,15 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-gradient-to-b from-gray-800 to-gray-900 bg-[url('https://i.pinimg.com/originals/e3/2f/ff/e32fffc3585275e96204c66f56c1efb7.jpg')]">
-    
+    <main
+  className="flex min-h-screen flex-col items-center justify-center p-6"
+  style={{
+    backgroundImage: "url('https://i.pinimg.com/originals/e3/2f/ff/e32fffc3585275e96204c66f56c1efb7.jpg'), linear-gradient(to bottom, #2d3748, #1a202c)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+
       <nav className="bg-orange-800 text-white w-full p-4 fixed top-0 left-0 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">
