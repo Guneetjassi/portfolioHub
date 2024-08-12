@@ -13,19 +13,18 @@ export default function Projects() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-black-100">
+    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-black-100 bg-[url('https://i.pinimg.com/originals/e3/2f/ff/e32fffc3585275e96204c66f56c1efb7.jpg')]">
       {/* Navigation Bar */}
-      <nav className="bg-gray-800 text-white w-full p-4 fixed top-0 left-0">
+      <nav className="bg-orange-800 text-white w-full p-4 fixed top-0 left-0">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">
-            <Link href="/">portfoliohub</Link>
+            <Link href="/">PortfolioHub</Link>
           </div>
           <div className="space-x-4">
             <Link href="/" className="hover:underline">Home</Link>
             <Link href="/about" className="hover:underline">About</Link>
             <Link href="/projects" className="hover:underline">Projects</Link>
             <Link href="/contact" className="hover:underline">Contact</Link>
-            <Link href="/resume" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Resume</Link>
           </div>
         </div>
       </nav>
